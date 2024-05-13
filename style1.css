@@ -1,8 +1,10 @@
 body {
   font-family: Arial, sans-serif;
+  background-size:cover;
+  background-position: center;
   margin: 0;
   padding: 0;
-  background-color: rgb(222, 253, 251); /* Light background color */
+  background-color: rgb(226, 238, 237); /* Light background color */
 }
 
 header {
@@ -35,12 +37,12 @@ nav ul {
 }
 
 nav li {
-  margin-right: 20px;
+  margin-right:10px;
 }
 
 nav a {
   text-decoration: none;
-  color: #333; /* Inherit primary text color */
+  color: #1a1d1e; /* Inherit primary text color */
   font-weight: bold; /* Bold navigation links */
 }
 
@@ -65,8 +67,8 @@ main {
 }
 
 .banner a {
-  background-color: #67bbe2; /* Accent color for button */
-  color: hsl(0, 0%, 100%); /* White text for button */
+  background-color: #000000; /* Accent color for button */
+  color: hsl(180, 32%, 69%); /* White text for button */
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -74,7 +76,7 @@ main {
 }
 
 .banner a:hover {
-  background-color: #6ae5b8; /* Darker shade on hover */
+  background-color: #ffffff; /* Darker shade on hover */
 }
 
 .flavors {
@@ -88,7 +90,7 @@ main {
   text-align: center;
   padding: 20px;
   margin: 10px;
-  background-color: #94eef3; /* White background for cards */
+  background-color: #a0c0c2; /* White background for cards */
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
   transition: transform 0.2s ease-in-out; /* Smooth hover effect */
@@ -116,12 +118,12 @@ main {
 .testimonial {
   margin: 15px;
   padding: 15px;
-  border: 1px solid #73eddf86; /* Light border for testimonials */
+  border: 1px solid #eff9f8; /* Light border for testimonials */
   border-radius: 5px;
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #9aeee1;
+  background-color: #fbfffe;
 }
